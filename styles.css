@@ -1,0 +1,57 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin-top: 23px;
+}   
+
+  
+.navbar {   
+    justify-content: center; /* Center the navbar content */
+  }
+  
+  .navbar-nav {
+    display: flex; /* Make the nav items horizontal */
+    justify-content: center; /* Center the nav items */
+    width: 100%; /* Ensure the nav items span the full width */
+  }
+  
+  .navbar-nav .nav-link {
+    color: black;
+    font-family: Baskervville;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+    text-transform: none;
+    line-height: 14px;
+    margin-top: 30px;
+    text-align: center; /* Center the text within each nav link */
+  }
+  
+  .navbar-nav .nav-link.active {
+    /* Add styles for active nav link if needed */
+  }
+
+/* Gallery LightBoxes*/
+/* Image Grid Gallery */
+.row img {
+    cursor: pointer;
+    padding: 20px;
+  }
+  
+  /* Lightbox */
+  .modal-dialog {
+    max-width: 800px;
+  }
+
+  /*Baskerville Font*/
+  .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  
